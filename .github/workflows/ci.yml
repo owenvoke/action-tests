@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: pxgamer/composer-action@v2
+      - uses: pxgamer/composer-action@v2.0.1
       - uses: pxgamer/phpunit-action@490eaead812c179f5d488e0f662d5000aa07115c
